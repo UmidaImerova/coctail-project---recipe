@@ -88,12 +88,19 @@ z-index: 1001;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
 
 }
 
 .category-item a{
     color: var(--black);
     font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
     
 }
 .category-item:hover{
@@ -105,31 +112,28 @@ z-index: 1001;
     color: var(--black);
 }
 
+
+
 .soup{
     background-image: url('https://images.pexels.com/photos/7492300/pexels-photo-7492300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
+
 }
 
 .second-course{
     background-image: url('https://images.pexels.com/photos/6275161/pexels-photo-6275161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
+
 }
 .baking{
     background-image: url('https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
+
 }
 .drinks{
     background-image: url('https://images.pexels.com/photos/8279911/pexels-photo-8279911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
+
+}
+
+.all{
+    background-color: var(--light-color);
 }
 
 /* Grid content */
