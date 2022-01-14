@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 :root{
     --light-color: #ffffff;
     --black: #000;
@@ -13,9 +14,12 @@
 
 a{
     text-decoration: none;
+    color: var(--black);
+    
 }
 li{
     list-style-type: none ;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -40,7 +44,7 @@ z-index: 1001;
 
 
 .header{
-    background-image: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url(/photo/Frame\ 2\ \(2\).png);
     width: 100%;
     height: 50vh;
     background-repeat: no-repeat;
@@ -49,6 +53,8 @@ z-index: 1001;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family:'Poppins', sans-serif; 
+    color:rgb(71, 70, 70);
 }
 
 .header-title{
@@ -289,6 +295,7 @@ z-index: 1001;
     padding: 10px 15px;
     width: 70%;
     height: 50px;
+    font-family: 'Poppins', sans-serif;;
 }
 
 @media screen and (max-width:500px){
@@ -332,10 +339,10 @@ z-index: 1001;
 }
 .random-btn{
     color: var(--black);
-    background-color: var(--light-color);
+    background-color: var(--background);
     padding: 0;
     width: 20%;
-    height: 20px;
+    height: 10px;
     border-radius: 2px;
     font-size:0.9rem
 }
